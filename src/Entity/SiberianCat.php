@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Entity;
 
-final class SiberianCat extends AnimalAbstract implements AnimalInterface
+final class SiberianCat extends AbstractAnimal
 {
     public function animalDescription(): string
     {

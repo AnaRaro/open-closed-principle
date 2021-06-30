@@ -9,8 +9,8 @@ use App\Entity\SiberianCat;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-#[Route(path: '/animals', name: 'listOfAnimals', methods: ['GET'])]
-final class indexController
+#[Route(path: '/animals', name: 'list_of_animals', methods: ['GET'])]
+final class IndexController
 {
     public function __invoke(): Response
     {
